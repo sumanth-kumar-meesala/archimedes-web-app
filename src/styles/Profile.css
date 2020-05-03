@@ -1,0 +1,107 @@
+.profile {
+    background: #F9FBFC;
+}
+
+.user-profile {
+    width: 60%;
+    position: relative;
+    background: white;
+    border-radius: 4px;
+    margin-top: -60px;
+}
+
+.bio {
+    width: 80%;
+}
+
+.img-size {
+    height: 120px !important;
+    width: 120px;
+}
+
+.profile-margin {
+    padding-top: 8px;
+    margin-left: 160px !important;
+}
+
+.color-grey {
+    color: #95a5a6;
+}
+
+.mid-night {
+    color: #2c3e50;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #13aa52 !important;
+}
+
+.bg-green {
+    background: #eebc1b !important
+}
+
+.btn-invite {
+    color: #fff !important;
+    background-color: #13aa52 !important;
+    border-color: #13aa52 !important;
+    font-weight: 500;
+    margin-bottom: 16px
+}
+
+.btn-invite:hover {
+    color: #13aa52 !important;
+    background-color: #fff !important;
+    border-color: #13aa52 !important;
+    font-weight: 500;
+}
+
+img.profile {
+    height: 200px;
+    border: #eebc1b 3px solid;
+}
+
+img.profile-95 {
+    height: 95px;
+    width: 95px;
+}
+
+#malacards {
+    padding: 8px;
+    height: 58vh !important;
+    overflow-y: scroll;
+}
+
+#tga {
+    padding: 8px;
+    height: 58vh !important;
+    overflow-y: scroll;
+}
+
+#my-tga {
+    padding: 8px;
+    height: 58vh !important;
+    overflow-y: scroll;
+}
+
+.profile-mist {
+    position: relative;
+    display: table;
+    width: 100%;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+    background: -webkit-gradient(linear,
+        left top,
+        right top,
+        from(rgba(255, 255, 255, 0.1)),
+        to(rgba(255, 255, 255, 0.1))),
+        url(../img/bg-masthead.png);
+    background: linear-gradient(90deg,
+        rgba(244, 185, 1, 0.9) 0,
+        rgba(244, 185, 1, 0.9) 100%),
+        url(../img/lab_1c.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

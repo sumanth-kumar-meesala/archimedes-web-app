@@ -1,0 +1,53 @@
+{
+  "name": "archimedes-web-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.5.1",
+    "@material-ui/icons": "^3.0.1",
+    "@mdi/js": "^3.0.39",
+    "@mdi/react": "^1.1.0",
+    "@nivo/bar": "^0.51.6",
+    "@nivo/pie": "^0.51.0",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.3",
+    "datamaps": "^0.5.9",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.5",
+    "react": "^16.6.1",
+    "react-alert": "^4.0.4",
+    "react-dom": "^16.6.1",
+    "react-ga": "^2.5.7",
+    "react-infinite-scroller": "^1.2.2",
+    "react-loading": "^2.0.3",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "react-simple-maps": "^0.12.1",
+    "react-stripe-checkout": "^2.6.3",
+    "react-stripe-elements": "^2.0.3",
+    "react-tagsinput": "^3.19.0",
+    "scheduler": "^0.13.3",
+    "socket.io-client": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "engines": {
+    "node": "8.11.3",
+    "npm": "6.5.0",
+    "yarn": "1.12.1"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

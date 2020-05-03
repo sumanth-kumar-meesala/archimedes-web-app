@@ -1,0 +1,92 @@
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+
+.container.center {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.login-sec {
+  padding: 50px 30px;
+  position: relative;
+}
+
+.login-sec .copy-text {
+  position: absolute;
+  width: 80%;
+  bottom: 20px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.login-sec h2 {
+  margin-bottom: 30px;
+  font-weight: 800;
+  font-size: 30px;
+  color: #13aa52;
+}
+
+.login-sec h2:after {
+  content: " ";
+  width: 100px;
+  height: 5px;
+  background: #13aa52;
+  display: block;
+  margin-top: 20px;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-login {
+  color: #fff !important;
+  background-color: #13aa52 !important;
+  border-color: #13aa52 !important;
+  font-weight: 600;
+}
+
+.btn-login:hover {
+  color: #13aa52 !important;
+  background-color: #fff !important;
+  border-color: #13aa52 !important;
+  font-weight: 600;
+}
+
+h2 {
+  color: #13aa52;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable- input:focus {
+  border-color: #13aa52;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #13aa52;
+  outline: 0 none;
+}
+
+.col-lg-8 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.center-login {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  right: 5%;
+  bottom: 5%;
+  background-color: #13aa52 !important
+}

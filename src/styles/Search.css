@@ -1,0 +1,108 @@
+.loading-image {
+    display: block;
+    margin: 0 auto;
+}
+
+#search-empty {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 120px;
+    transform: translateY(-50%);
+}
+
+.image-90 {
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 10px
+}
+
+.card-body.remove-padding {
+    padding: 0rem;
+}
+
+.text-grey {
+    color: #8e8e8e;
+}
+
+.bg-yellow {
+    background: #eebc1b !important
+}
+
+.search {
+    min-height: 25s0px;
+}
+
+.custom-container {
+    justify-content: center;
+}
+
+.input-form {
+    color: #343a40 !important;
+    font-weight: 400;
+    font-size: 16px;
+    height: 64px !important;
+    border-width: 0px;
+}
+
+.elevation {
+    z-index: 0 !important;
+}
+
+::placeholder {
+    color: #888;
+}
+
+:-ms-input-placeholder {
+    color: #888;
+}
+
+::-ms-input-placeholder {
+    color: #888;
+}
+
+.card {
+    border: 0px;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.card.hover:hover {
+    -ms-transform: scale(1.04);
+    /* IE 9 */
+    -webkit-transform: scale(1.04);
+    /* Safari 3-8 */
+    transform: scale(1.04);
+    transition-duration: 0.5 s;
+}
+
+.search-mist {
+    position: relative;
+    display: table;
+    width: 100%;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+    background: -webkit-gradient(linear,
+        left top,
+        right top,
+        from(rgba(255, 255, 255, 0.1)),
+        to(rgba(255, 255, 255, 0.1))),
+        url(../img/bg-masthead.png);
+    background: linear-gradient(90deg,
+        rgba(244, 185, 1, 0.9) 0,
+        rgba(244, 185, 1, 0.9) 100%),
+        url(../img/lab_1c.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 1200px) {
+    .container-search {
+        max-width: 800px;
+    }
+}
